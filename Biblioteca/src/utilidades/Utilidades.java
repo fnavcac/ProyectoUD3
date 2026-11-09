@@ -2,7 +2,7 @@
 package utilidades;
 
 /**
- * Numeros primos
+ * Utilidades varias
  * 
  * @author 03_1DAW, 07_1DAW
  * @version 0.1
