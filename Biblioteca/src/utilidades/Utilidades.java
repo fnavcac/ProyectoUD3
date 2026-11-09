@@ -156,6 +156,9 @@ public class Utilidades {
         //Variable
         double division;
         
+        // No se puede dividir entre 0
+        if(num2 == 0) return 0;
+        
         division = num1 / num2;
         
         return division;
