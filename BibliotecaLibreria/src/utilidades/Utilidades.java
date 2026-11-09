@@ -10,13 +10,12 @@ package utilidades;
 
 public class Utilidades {
     
-    public static boolean esPrimo(int numero) {
-        
-        /**
+    /**
          * Metodo que nos devuelve si es primo o no el numero
          * 
          * @param numero numero introducido
          */
+    public static boolean esPrimo(int numero) {
         
         // Variables
         boolean esPrimo = true;
@@ -36,13 +35,12 @@ public class Utilidades {
         
     }
     
-    public static int calcularFactorial(int numero) {
-        
-        /**
+    /**
          * Metodo que nos calcula el factorial del numero dado
          * 
          * @param numero numero introducido
          */
+    public static int calcularFactorial(int numero) {
         
         // Variables
         int factorial = 1;
@@ -57,15 +55,14 @@ public class Utilidades {
         
     }
     
-    public static double multiplicarTresNumeros(int num1, int num2, int num3) {
-        
-        /**
+    /**
          * Metodo para calcular la multiplicacion de tres numeros
          * 
          * @param num1 numero 1 introducido
          * @param num2 numero 2 introducido
          * @param num3 numero 3 introducido
          */
+    public static double multiplicarTresNumeros(int num1, int num2, int num3) {
         
         //Variables
         double resultado;
@@ -76,14 +73,13 @@ public class Utilidades {
         
     }
     
-    public static double calcularAleatorio (int minimo, int maximo) {
-        
-        /**
+    /**
          * Metodo que devuelve un numero aleatorio de un rango dado
          * 
          * @param minimo rango minimo introducido
          * @param maximo rango maximo introducido
          */
+    public static double calcularAleatorio (int minimo, int maximo) {
         
         //Variables
         double numAleatorio;
@@ -94,14 +90,13 @@ public class Utilidades {
         
     }
     
-    public static double calcularGrande (double num1, double num2) {
-        
-        /**
+    /**
          * Metodo que nos devuelve el numero mayor
          * 
          * @param num1 numero 1 introducido
          * @param num2 numero 2 introducido
          */
+    public static double calcularGrande (double num1, double num2) {
         
         // Variables
         double mayor;
@@ -126,14 +121,13 @@ public class Utilidades {
         
     }
     
-    public static double calcularAreaRectangulo(double base, double altura) {
-        
-        /**
+    /**
          * Metodo que nos devuelve el area de un rectangulo
          * 
          * @param base base del rectangulo introducida
          * @param altura altura del rectangulo introducida
          */
+    public static double calcularAreaRectangulo(double base, double altura) {
         
         //Variables
         double area;
@@ -144,15 +138,14 @@ public class Utilidades {
         
     }
     
-    public static double calcularDivision (double num1, double num2){
-        
-        /**
+    /**
          * Metodo que nos devuelve la division de numero 1 entre numero 2
          * 
          * @param num1 numero 1 introducido
          * @param num2 numero 2 introducido
          */
-        
+    public static double calcularDivision (double num1, double num2){
+          
         //Variable
         double division;
         
